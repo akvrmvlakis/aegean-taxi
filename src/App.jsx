@@ -61,7 +61,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -87,7 +89,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">33 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    33 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -116,7 +120,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -142,7 +148,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -168,7 +176,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -197,7 +207,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -223,7 +235,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -249,7 +263,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -278,7 +294,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -304,7 +322,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
@@ -330,7 +350,9 @@ function App() {
                     height={12}
                     className="-mb-[2px]"
                   />
-                  <p className="text-center text-xs font-semibold">63 online</p>
+                  <p className="text-center text-xxs font-semibold">
+                    63 online
+                  </p>
                 </div>
               </div>
             </div>
