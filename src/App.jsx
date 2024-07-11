@@ -40,8 +40,8 @@ function App() {
 
       <div className="grid grid-cols-2 gap-4 px-4 pt-12">
         <div className="col-span-1">
-          <div className="h-[100px] w-full flex relative bg-[#E8E8E8] rounded-xl justify-between">
-            <p className="text-[#121824] flex items-end font-bold ps-3 pb-3 text-sm">
+          <div className="h-[100px] w-full flex relative bg-[#E8E8E8] rounded-xl justify-end">
+            <p className="text-[#121824] absolute bottom-0 left-0 font-bold ps-3 pb-2 text-sm">
               Mykonos
             </p>
             <img
@@ -66,8 +66,8 @@ function App() {
           </div>
         </div>
         <div className="col-span-1">
-          <div className="h-[100px] w-full flex relative bg-[#E8E8E8] rounded-xl justify-between">
-            <p className="text-[#121824] flex items-end font-bold ps-3 pb-3 text-sm">
+          <div className="h-[100px] w-full flex relative bg-[#E8E8E8] rounded-xl justify-end">
+            <p className="text-[#121824] absolute bottom-0 left-0 font-bold ps-3 pb-2 text-sm">
               Santorini
             </p>
             <img
