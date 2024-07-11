@@ -53,7 +53,7 @@ function App() {
                 className="px-3 flex items-center"
               />
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-1/2 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -81,7 +81,7 @@ function App() {
                 className="px-3 flex items-center"
               />
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-1/2 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -112,7 +112,7 @@ function App() {
                 Rhodes
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -140,7 +140,7 @@ function App() {
                 Corfu
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -168,7 +168,7 @@ function App() {
                 Kos
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -199,7 +199,7 @@ function App() {
                 Milos
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -227,7 +227,7 @@ function App() {
                 Paros
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -255,7 +255,7 @@ function App() {
                 Naxos
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -286,7 +286,7 @@ function App() {
                 Kea
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -314,7 +314,7 @@ function App() {
                 Crete
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
@@ -342,7 +342,7 @@ function App() {
                 Athens
               </p>
               <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
-                <div className="flex items-center justify-between px-2">
+                <div className="flex items-center justify-around px-2">
                   <img
                     src={car}
                     alt="Car Icon"
