@@ -53,7 +53,13 @@ function App() {
             />
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-1/2 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -73,7 +79,13 @@ function App() {
             />
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-1/2 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">33 online</p>
               </div>
             </div>
@@ -96,7 +108,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -116,7 +134,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -136,7 +160,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -159,7 +189,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -179,7 +215,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -199,7 +241,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -222,7 +270,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -242,7 +296,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
@@ -262,7 +322,13 @@ function App() {
             </p>
             <div className="bg-[#108246] text-white absolute inset-x-0 top-0 w-3/4 rounded-full mx-auto -mt-3 py-1">
               <div className="flex items-center justify-between px-2">
-                <img src={car} alt="Car Icon" width={12} height={12} />
+                <img
+                  src={car}
+                  alt="Car Icon"
+                  width={12}
+                  height={12}
+                  className="-mb-[2px]"
+                />
                 <p className="text-center text-xs font-semibold">63 online</p>
               </div>
             </div>
