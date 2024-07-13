@@ -433,19 +433,19 @@ function App() {
       </div>
       {/* component end */}
       {/* component start */}
-      <nav>
-        <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
-          <div className="flex items-center">
-            <img src={menuBtn} alt="Menu Button" className="me-4" />
-            <img src={logo} alt="Logo" />
-          </div>
-          <div className="flex items-center">
-            <img src={phoneIcon} alt="Phone Icon" />
-            <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
-          </div>
-        </div>
-      </nav>
       <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
         <div className="flex items-center justify-center mt-6">
           <h1 className="font-bold text-2xl text-[#FF001F]">
             Reservation Received!
