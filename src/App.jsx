@@ -493,7 +493,7 @@ function App() {
             Cancel Ride
           </button>
           <button className="bg-black rounded-lg py-3 font-semibold text-lg text-white w-1/2 mx-2">
-            Track live
+            Edit details
           </button>
         </div>
       </div>
