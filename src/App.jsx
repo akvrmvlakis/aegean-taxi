@@ -471,7 +471,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-6">
+        <div className="flex items-center justify-center mt-4">
           <div className="flex items-center">
             <img
               src={calendarIcon}
@@ -481,7 +481,7 @@ function App() {
             <p className="text-base font-semibold">Tue 21st Jan @ 21:00</p>
           </div>
         </div>
-        <div className="flex items-center justify-center mx-4 mt-6 pb-6 border-b-4 border-[#1218241a]">
+        <div className="flex items-center justify-center mx-4 mt-6 pb-4 border-b-4 border-[#1218241a]">
           <div className="flex items-center">
             <img
               src={personIcon}
@@ -522,7 +522,7 @@ function App() {
           <img
             src={greenTick}
             alt="Green Tick"
-            className="w-[25px] h-[25px] ms-3 -mb-1"
+            className="w-[25px] h-[25px] ms-3"
           />
         </div>
         <div className="flex items-center justify-between mx-4 pt-8 pb-6 relative border-b-4 border-[#1218241a]">
@@ -542,7 +542,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-6">
+        <div className="flex items-center justify-center mt-4">
           <div className="flex items-center">
             <img
               src={calendarIcon}
@@ -552,7 +552,7 @@ function App() {
             <p className="text-base font-semibold">Tue 21st Jan @ 21:00</p>
           </div>
         </div>
-        <div className="flex items-center justify-center mx-4 mt-6 pb-6 border-b-4 border-[#1218241a]">
+        <div className="flex items-center justify-center mx-4 mt-6 pb-4 border-b-4 border-[#1218241a]">
           <div className="flex items-center">
             <img
               src={personIcon}
@@ -563,10 +563,10 @@ function App() {
           </div>
         </div>
         <div className="flex items-center justify-center mt-2">
-          <img src={uberIcon} alt="Taxi Icon" className="w-[80px] h-[50px]" />
+          <img src={uberIcon} alt="Taxi Icon" className="w-[60px] h-[30px]" />
         </div>
         <div className="flex items-center justify-center mt-2">
-          <p className="text-base font-bold uppercase border-2 border-gray-300 px-2 py-1">
+          <p className="text-sm font-bold uppercase border-2 border-gray-300 px-2 py-1">
             EMK 4053
           </p>
         </div>
@@ -581,13 +581,13 @@ function App() {
           <img
             src={phoneDevice}
             alt=" Device Icon"
-            className="w-[25px] h-[25px] -mb-1"
+            className="w-[20px] h-[20px] -mb-1"
           />
-          <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+          <p className="text-lg font-bold text-blue-800">+30 690 987 3040</p>
           <img
             src={whatsApp}
             alt="Whatsapp Icon"
-            className="w-[30px] h-[30px]"
+            className="w-[25px] h-[25px]"
           />
         </div>
         <div className="flex flex-grow items-end mt-6 mb-4 px-2">
