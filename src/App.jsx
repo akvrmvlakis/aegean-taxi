@@ -21,24 +21,25 @@ import whatsApp from "/whatsApp.svg";
 import arrow from "/arrow.svg";
 import calendarIcon from "/calendarIcon.svg";
 import personIcon from "/personIcon.svg";
+import greenTick from "/greenTick.svg";
 
 function App() {
   return (
     <>
-      <nav>
-        <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
-          <div className="flex items-center">
-            <img src={menuBtn} alt="Menu Button" className="me-4" />
-            <img src={logo} alt="Logo" />
-          </div>
-          <div className="flex items-center">
-            <img src={phoneIcon} alt="Phone Icon" />
-            <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
-          </div>
-        </div>
-      </nav>
       {/* component start */}
-      <div className="dvh-screen">
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
         <div className="text-center">
           <h1 className="font-bold text-2xl leading-[56px]">
             Book a Taxi online 24/7
@@ -368,19 +369,19 @@ function App() {
       </div>
       {/* component end */}
       {/* component start */}
-      <nav>
-        <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
-          <div className="flex items-center">
-            <img src={menuBtn} alt="Menu Button" className="me-4" />
-            <img src={logo} alt="Logo" />
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
           </div>
-          <div className="flex items-center">
-            <img src={phoneIcon} alt="Phone Icon" />
-            <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
-          </div>
-        </div>
-      </nav>
-      <div className="min-h-screen">
+        </nav>
         <div className="w-full">
           <img src={map} alt="Map" className="h-[200px] w-full" />
         </div>
@@ -406,7 +407,7 @@ function App() {
           <p className="text-xs font-semibold">Black Mercedes V Class</p>
         </div>
         <div className="flex items-center justify-center mt-2">
-          <p className="text-lg font-bold text-blue-800">Dimitris</p>
+          <p className="text-base font-bold text-blue-800">Dimitris</p>
         </div>
 
         <div className="flex items-center justify-between mt-3 px-12">
@@ -422,7 +423,7 @@ function App() {
             className="w-[30px] h-[30px]"
           />
         </div>
-        <div className="flex items-center justify-between mt-6 mb-4 px-2">
+        <div className="flex flex-grow items-center justify-between mt-6 mb-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
             Cancel Ride
           </button>
@@ -497,6 +498,106 @@ function App() {
           </button>
         </div>
       </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
+        <div className="flex items-center justify-center mt-6">
+          <h1 className="font-bold text-2xl text-[#00CA82]">
+            Reservation Confirmed!
+          </h1>
+          <img
+            src={greenTick}
+            alt="Green Tick"
+            className="w-[25px] h-[25px] ms-3 -mb-1"
+          />
+        </div>
+        <div className="flex items-center justify-between mx-4 pt-8 pb-6 relative border-b-4 border-[#1218241a]">
+          <div className="border-l-4 border-[#47C69C] min-h-[50px] ps-2 flex flex-col justify-between">
+            <p className="text-black text-base font-bold">Pick up</p>
+            <p className="text-black font-normal text-xs">
+              Athens Intl Airport
+            </p>
+          </div>
+          <div>
+            <img src={arrow} alt="Arrow" className="w-[100px] h-[15px]" />
+          </div>
+          <div className="border-l-4 border-black min-h-[50px] ps-2 flex flex-col justify-between">
+            <p className="text-black text-base font-bold">Drop off</p>
+            <p className="text-black font-normal text-xs">
+              Athens Intl Airport
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center mt-6">
+          <div className="flex items-center">
+            <img
+              src={calendarIcon}
+              alt="Calendar Icon"
+              className="w-[25px] h-[25px] me-2"
+            />
+            <p className="text-base font-semibold">Tue 21st Jan @ 21:00</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center mx-4 mt-6 pb-6 border-b-4 border-[#1218241a]">
+          <div className="flex items-center">
+            <img
+              src={personIcon}
+              alt="Person Icon"
+              className="w-[15px] h-[15px] me-4"
+            />
+            <p className="text-base font-semibold">John Stamatiadis</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center mt-2">
+          <img src={uberIcon} alt="Taxi Icon" className="w-[80px] h-[50px]" />
+        </div>
+        <div className="flex items-center justify-center mt-2">
+          <p className="text-base font-bold uppercase border-2 border-gray-300 px-2 py-1">
+            EMK 4053
+          </p>
+        </div>
+        <div className="flex items-center justify-center mt-2">
+          <p className="text-xs font-semibold">Black Mercedes V Class</p>
+        </div>
+        <div className="flex items-center justify-center mt-2">
+          <p className="text-base font-bold text-blue-800">Dimitris</p>
+        </div>
+
+        <div className="flex items-center justify-between mt-3 px-12">
+          <img
+            src={phoneDevice}
+            alt=" Device Icon"
+            className="w-[25px] h-[25px] -mb-1"
+          />
+          <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+          <img
+            src={whatsApp}
+            alt="Whatsapp Icon"
+            className="w-[30px] h-[30px]"
+          />
+        </div>
+        <div className="flex flex-grow items-end mt-6 mb-4 px-2">
+          <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
+            Cancel Ride
+          </button>
+          <button className="bg-black rounded-lg py-3 font-semibold text-lg text-white w-1/2 mx-2">
+            Edit details
+          </button>
+        </div>
+      </div>
+      {/* component end */}
     </>
   );
 }
