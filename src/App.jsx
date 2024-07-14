@@ -619,8 +619,8 @@ function App() {
             Looking for nearby drivers
           </h1>
         </div>
-        <div className="flex items center justify-center">
-          <hr className="my-8 mx-2  w-full border-b-4 border-[#316FE0]" />
+        <div className="flex items center justify-center mx-2">
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
@@ -668,7 +668,7 @@ function App() {
             Connecting you to a driver
           </h1>
         </div>
-        <div className="flex items center justify-center">
+        <div className="flex items center justify-center mx-2">
           <hr className="my-8 mx-2  w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
@@ -729,7 +729,7 @@ function App() {
             Getting driver details
           </h1>
         </div>
-        <div className="flex items center justify-center">
+        <div className="flex items center justify-center mx-2">
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
@@ -788,7 +788,7 @@ function App() {
             Confirming your booking
           </h1>
         </div>
-        <div className="flex items center justify-center">
+        <div className="flex items center justify-center mx-2">
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
