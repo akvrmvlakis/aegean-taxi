@@ -387,7 +387,7 @@ function App() {
         <div className="w-full">
           <img src={map} alt="Map" className="h-[200px] w-full" />
         </div>
-        <div className="flex items-center justify-center mt-4">
+        <div className="flex items-center justify-center mt-2">
           <h1 className="text-2xl font-bold text-black">
             Driver is on the Way!
           </h1>
@@ -398,10 +398,10 @@ function App() {
           </p>
         </div>
         <div className="flex items-center justify-center mt-2">
-          <img src={uberIcon} alt="Taxi Icon" className="w-[80px] h-[50px]" />
+          <img src={uberIcon} alt="Taxi Icon" className="w-[60px] h-[30px]" />
         </div>
         <div className="flex items-center justify-center mt-2">
-          <p className="text-base font-bold uppercase border-2 border-gray-300 px-2 py-1">
+          <p className="text-sm font-bold uppercase border-2 border-gray-300 px-2 py-1">
             EMK 4053
           </p>
         </div>
@@ -416,16 +416,16 @@ function App() {
           <img
             src={phoneDevice}
             alt=" Device Icon"
-            className="w-[25px] h-[25px] -mb-1"
+            className="w-[20px] h-[20px] -mb-1"
           />
-          <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+          <p className="text-lg font-bold text-blue-800">+30 690 987 3040</p>
           <img
             src={whatsApp}
             alt="Whatsapp Icon"
-            className="w-[30px] h-[30px]"
+            className="w-[25px] h-[25px]"
           />
         </div>
-        <div className="flex flex-grow items-center justify-between mt-6 mb-4 px-2">
+        <div className="flex flex-grow items-end justify-between mt-6 mb-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
             Cancel Ride
           </button>
