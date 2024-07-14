@@ -22,6 +22,8 @@ import arrow from "/arrow.svg";
 import calendarIcon from "/calendarIcon.svg";
 import personIcon from "/personIcon.svg";
 import greenTick from "/greenTick.svg";
+import nearbyDrivers from "/nearbyDrivers.png";
+import walletIcon from "/walletIcon.svg";
 
 function App() {
   return (
@@ -594,6 +596,234 @@ function App() {
           </button>
           <button className="bg-black rounded-lg py-3 font-semibold text-lg text-white w-1/2 mx-2">
             Edit details
+          </button>
+        </div>
+      </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
+        <div className="flex items-center justify-center mt-8">
+          <h1 className="font-bold text-2xl text-[#244284]">
+            Looking for nearby drivers
+          </h1>
+        </div>
+        <div className="flex items center justify-center">
+          <hr className="my-8 mx-2  w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+        </div>
+        <div className="flex items-center justify-center mt-8 mx-4">
+          <div className="block rounded-t-lg rounded-b-lg bg-[#016974]">
+            <img
+              src={nearbyDrivers}
+              alt="Nearby Drivers Image"
+              className="w-full rounded-t-lg"
+            />
+            <div className="text-center my-4">
+              <p className="text-white font-semibold text-base my-4">
+                Cars available to book online 24/7
+              </p>
+              <p className="text-white font-semibold text-base my-4">
+                Instant booking & confirmation
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-grow items-end mt-6 mb-4 px-2">
+          <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
+            Cancel Ride
+          </button>
+        </div>
+      </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
+        <div className="flex items-center justify-center mt-8">
+          <h1 className="font-bold text-2xl text-[#244284]">
+            Connecting you to a driver
+          </h1>
+        </div>
+        <div className="flex items center justify-center">
+          <hr className="my-8 mx-2  w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+        </div>
+        <div className="flex items-center justify-center mt-8 mx-4">
+          <div className="block rounded-t-lg rounded-b-lg bg-[#050950]">
+            <img
+              src={nearbyDrivers}
+              alt="Nearby Drivers Image"
+              className="w-full rounded-t-lg"
+            />
+            <div className="text-center my-4">
+              <p className="text-white font-semibold text-base my-4">
+                Book for now or later
+              </p>
+              <p className="text-white font-semibold text-base my-4">
+                Pay with cash or credit card
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-grow mt-4 items-center justify-center">
+          <img
+            src={walletIcon}
+            alt="Wallet Icon"
+            className="w-[25px] h-[25px] me-1"
+          />
+          <p className="text-black text-lg font-semibold">
+            Card payment available with driver
+          </p>
+        </div>
+
+        <div className="flex items-end justify-center my-4 px-2">
+          <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
+            Cancel Ride
+          </button>
+        </div>
+      </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
+        <div className="flex items-center justify-center mt-8">
+          <h1 className="font-bold text-2xl text-[#244284]">
+            Getting driver details
+          </h1>
+        </div>
+        <div className="flex items center justify-center">
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
+        </div>
+        <div className="flex items-center justify-center mt-8 mx-4">
+          <div className="block rounded-t-lg rounded-b-lg bg-[#0711C4]">
+            <img
+              src={nearbyDrivers}
+              alt="Nearby Drivers Image"
+              className="w-full rounded-t-lg"
+            />
+            <div className="text-center my-4">
+              <p className="text-white font-semibold text-base my-4">
+                Available in all main islands & Athens
+              </p>
+              <p className="text-white font-semibold text-base my-4">
+                Port & Airport Transfers
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-grow mt-4 items-center justify-center">
+          <img
+            src={walletIcon}
+            alt="Wallet Icon"
+            className="w-[25px] h-[25px] me-1"
+          />
+          <p className="text-black text-lg font-semibold">
+            Card payment available with driver
+          </p>
+        </div>
+        <div className="flex items-end justify-center my-4 px-2">
+          <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
+            Cancel Ride
+          </button>
+        </div>
+      </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
+        <div className="flex items-center justify-center mt-8">
+          <h1 className="font-bold text-2xl text-[#244284]">
+            Confirming your booking
+          </h1>
+        </div>
+        <div className="flex items center justify-center">
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+          <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
+        </div>
+        <div className="flex items-center justify-center mt-8 mx-4">
+          <div className="block rounded-t-lg rounded-b-lg bg-black">
+            <img
+              src={nearbyDrivers}
+              alt="Nearby Drivers Image"
+              className="w-full rounded-t-lg"
+            />
+            <div className="text-center my-4">
+              <p className="text-white font-semibold text-base my-4">
+                24/7 customer support
+              </p>
+              <p className="text-white font-semibold text-base my-4">
+                Port & Airport Transfers
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-grow mt-4 items-center justify-center">
+          <img
+            src={walletIcon}
+            alt="Wallet Icon"
+            className="w-[25px] h-[25px] me-1"
+          />
+          <p className="text-black text-lg font-semibold">
+            Card payment available with driver
+          </p>
+        </div>
+        <div className="flex items-end justify-center my-4 px-2">
+          <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
+            Cancel Ride
           </button>
         </div>
       </div>
