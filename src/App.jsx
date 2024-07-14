@@ -392,8 +392,12 @@ function App() {
         </nav>
 
         <div className="w-full h-[200px]">
-          <APIProvider apiKey={"AIzaSyAtyvSYHzUOIcwDnU_Cfki6E_sV86ilW-A"}>
-            <Map defaultCenter={position} defaultZoom={11}>
+          <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
+            <Map
+              defaultCenter={position}
+              defaultZoom={11}
+              disableDefaultUI={true}
+            >
               <Marker position={position} />
             </Map>
           </APIProvider>
