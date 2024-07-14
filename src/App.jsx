@@ -49,7 +49,7 @@ function App() {
           <p className="font-normal text-xl">Select a location to begin</p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 px-4 pt-10">
+        <div className="grid grid-cols-2 gap-4 px-4 pt-8">
           <div className="col-span-1">
             <div className="h-[90px] w-full flex relative bg-[#E8E8E8] rounded-xl justify-end">
               <p className="text-[#121824] absolute bottom-0 left-0 font-bold ps-3 pb-2 text-sm">
