@@ -1,4 +1,5 @@
 import "./App.css";
+import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 import logo from "/logo.svg";
 import menuBtn from "/menu-btn.svg";
 import phoneIcon from "/phoneIcon.svg";
@@ -26,6 +27,7 @@ import nearbyDrivers from "/nearbyDrivers.png";
 import walletIcon from "/walletIcon.svg";
 
 function App() {
+  const position = { lat: 37.4447181, lng: 25.3254909 };
   return (
     <>
       {/* component start */}
@@ -384,8 +386,13 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="w-full">
-          <img src={map} alt="Map" className="h-[200px] w-full" />
+
+        <div className="w-full h-[200px]">
+          <APIProvider apiKey={"AIzaSyAtyvSYHzUOIcwDnU_Cfki6E_sV86ilW-A"}>
+            <Map defaultCenter={position} defaultZoom={12}>
+              <Marker position={position} />
+            </Map>
+          </APIProvider>
         </div>
         <div className="flex items-center justify-center mt-2">
           <h1 className="text-2xl font-bold text-black">
@@ -826,6 +833,22 @@ function App() {
             Cancel Ride
           </button>
         </div>
+      </div>
+      {/* component end */}
+      {/* component start */}
+      <div className="flex flex-col min-h-screen">
+        <nav>
+          <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
+            <div className="flex items-center">
+              <img src={menuBtn} alt="Menu Button" className="me-4" />
+              <img src={logo} alt="Logo" />
+            </div>
+            <div className="flex items-center">
+              <img src={phoneIcon} alt="Phone Icon" />
+              <div className="font-semibold text-sm ms-2">+30 215 215 4000</div>
+            </div>
+          </div>
+        </nav>
       </div>
       {/* component end */}
     </>
