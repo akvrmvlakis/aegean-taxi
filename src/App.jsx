@@ -590,7 +590,7 @@ function App() {
             <p className="text-lg font-semibold">Black Mercedes V Class</p>
           </div>
           <div className="flex items-center justify-center mt-3">
-            <p className="text-xl font-bold text-blue-800">Dimitris</p>
+            <p className="text-2xl font-bold text-blue-800">Dimitris</p>
           </div>
 
           <div className="flex items-center justify-between w-full mt-3">
@@ -599,7 +599,7 @@ function App() {
               alt=" Device Icon"
               className="w-[30px] h-[30px] me-5 -mb-1"
             />
-            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
             <img
               src={whatsApp}
               alt="Whatsapp Icon"
