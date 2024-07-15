@@ -412,33 +412,39 @@ function App() {
             (Pick up in 3 min)
           </p>
         </div>
-        <div className="flex items-center justify-center mt-2">
-          <img src={uberIcon} alt="Taxi Icon" className="w-[60px] h-[30px]" />
-        </div>
-        <div className="flex items-center justify-center mt-2">
-          <p className="text-sm font-bold uppercase border-2 border-gray-300 px-2 py-1">
-            EMK 4053
-          </p>
-        </div>
-        <div className="flex items-center justify-center mt-2">
-          <p className="text-xs font-semibold">Black Mercedes V Class</p>
-        </div>
-        <div className="flex items-center justify-center mt-2">
-          <p className="text-base font-bold text-blue-800">Dimitris</p>
-        </div>
+        <div className="flex flex-col items-center justify-center flex-grow mx-4">
+          <div className="flex items-center justify-center mt-2">
+            <img
+              src={uberIcon}
+              alt="Taxi Icon"
+              className="w-[100px] h-[70px]"
+            />
+          </div>
+          <div className="flex items-center justify-center mt-3">
+            <p className="text-lg font-bold uppercase border-2 border-gray-300 px-2 py-1">
+              EMK 4053
+            </p>
+          </div>
+          <div className="flex items-center justify-center mt-3">
+            <p className="text-lg font-semibold">Black Mercedes V Class</p>
+          </div>
+          <div className="flex items-center justify-center mt-3">
+            <p className="text-xl font-bold text-blue-800">Dimitris</p>
+          </div>
 
-        <div className="flex items-center justify-between mt-3 px-12">
-          <img
-            src={phoneDevice}
-            alt=" Device Icon"
-            className="w-[20px] h-[20px] -mb-1"
-          />
-          <p className="text-lg font-bold text-blue-800">+30 690 987 3040</p>
-          <img
-            src={whatsApp}
-            alt="Whatsapp Icon"
-            className="w-[25px] h-[25px]"
-          />
+          <div className="flex items-center justify-between w-full mt-3">
+            <img
+              src={phoneDevice}
+              alt=" Device Icon"
+              className="w-[30px] h-[30px] me-5 -mb-1"
+            />
+            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <img
+              src={whatsApp}
+              alt="Whatsapp Icon"
+              className="w-[40px] h-[40px] ms-5"
+            />
+          </div>
         </div>
         <div className="flex flex-grow items-end justify-between mt-6 mb-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
