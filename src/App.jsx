@@ -19,7 +19,6 @@ import car from "/car.svg";
 import map from "/map.png";
 import uberIcon from "/uberIcon.svg";
 import phoneDevice from "/phoneDevice.svg";
-import whatsApp from "/whatsApp.svg";
 import arrow from "/arrow.svg";
 import calendarIcon from "/calendarIcon.svg";
 import personIcon from "/personIcon.svg";
