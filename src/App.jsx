@@ -25,6 +25,8 @@ import personIcon from "/personIcon.svg";
 import greenTick from "/greenTick.svg";
 import nearbyDrivers from "/nearbyDrivers.png";
 import walletIcon from "/walletIcon.svg";
+import telephoneIcon from "/telephoneIcon.svg";
+import whatsappVector from "/whatsappVector.svg";
 
 function App() {
   const position = {
@@ -429,24 +431,24 @@ function App() {
             <p className="text-lg font-semibold">Black Mercedes V Class</p>
           </div>
           <div className="flex items-center justify-center mt-3">
-            <p className="text-xl font-bold text-blue-800">Dimitris</p>
+            <p className="text-2xl font-bold text-blue-800">Dimitris</p>
           </div>
 
           <div className="flex items-center justify-between w-full mt-3">
             <img
-              src={phoneDevice}
+              src={telephoneIcon}
               alt=" Device Icon"
-              className="w-[30px] h-[30px] me-5 -mb-1"
+              className="w-[50px] h-[50px] me-3"
             />
-            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
             <img
-              src={whatsApp}
+              src={whatsappVector}
               alt="Whatsapp Icon"
-              className="w-[40px] h-[40px] ms-5"
+              className="w-[50px] h-[50px] ms-3"
             />
           </div>
         </div>
-        <div className="flex flex-grow items-end justify-between mt-6 mb-4 px-2">
+        <div className="flex items-end justify-between mt-16 mb-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
             Cancel Ride
           </button>
