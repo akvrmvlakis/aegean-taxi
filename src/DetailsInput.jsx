@@ -104,8 +104,8 @@ const DetailsInput = () => {
             </div>
           </div>
 
-          <p className="text-sm text-black font-semibold flex items-center justify-center">
-            *Make sure you use the appropriate country code
+          <p className="text-sm text-red-600 font-semibold flex items-center justify-center">
+            *Make sure you entered the correct country code
           </p>
 
           <div className="flex items-center justify-center my-10">
