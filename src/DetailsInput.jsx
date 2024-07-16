@@ -104,6 +104,10 @@ const DetailsInput = () => {
             </div>
           </div>
 
+          <p className="text-sm text-black font-semibold flex items-center justify-center">
+            *Make sure you use the appropriate country code
+          </p>
+
           <div className="flex items-center justify-center my-10">
             <img
               src={walletIcon}
@@ -122,7 +126,7 @@ const DetailsInput = () => {
                 name="agreeToTerms"
                 checked={formData.agreeToTerms}
                 onChange={handleChange}
-                className="form-checkbox h-12 w-12 text-blue-600"
+                className="form-checkbox h-12 w-12 text-blue-600 me-2"
                 required
               />
               <span className="ml-2 text-gray-400 text-sm font-semibold leading-5">
