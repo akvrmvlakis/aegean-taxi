@@ -1,5 +1,6 @@
 import "./App.css";
 import PhoneInputAndOTP from "./PhoneInput";
+import DetailsInput from "./DetailsInput";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 import logo from "/logo.svg";
 import menuBtn from "/menu-btn.svg";
@@ -948,6 +949,9 @@ function App() {
       {/* component end */}
       {/* component start */}
       <PhoneInputAndOTP />
+      {/* component end */}
+      {/* component start */}
+      <DetailsInput />
       {/* component end */}
     </>
   );
