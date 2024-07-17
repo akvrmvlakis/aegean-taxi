@@ -119,7 +119,7 @@ const SelectTaxi = () => {
             <p className="font-bold text-[#264388] text-2xl">€36</p>
           </div>
           <div
-            className={`py-1 px-4 border-[3px] rounded-xl cursor-pointer flex items-center justify-between ${
+            className={`py-1 px-4 border-[3px] rounded-2xl cursor-pointer flex items-center justify-between ${
               selectedItem === "item2"
                 ? "border-[#264388]"
                 : "border-transparent"
@@ -155,7 +155,7 @@ const SelectTaxi = () => {
             <p className="font-bold text-[#264388] text-2xl">€36</p>
           </div>
           <div
-            className={`py-1 px-4 border-[3px] rounded-xl cursor-pointer flex items-center justify-between ${
+            className={`py-1 px-4 border-[3px] rounded-2xl cursor-pointer flex items-center justify-between ${
               selectedItem === "item3"
                 ? "border-[#264388]"
                 : "border-transparent"
