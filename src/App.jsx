@@ -1,6 +1,7 @@
 import "./App.css";
 import PhoneInputAndOTP from "./PhoneInput";
 import DetailsInput from "./DetailsInput";
+import SelectTaxi from "./SelectTaxi";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 import logo from "/logo.svg";
 import menuBtn from "/menu-btn.svg";
@@ -463,6 +464,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -529,6 +531,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -634,6 +637,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -683,6 +687,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -745,6 +750,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -804,6 +810,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -863,6 +870,7 @@ function App() {
         </div>
       </div>
       {/* component end */}
+
       {/* component start */}
       <div className="flex flex-col min-h-screen">
         <nav>
@@ -947,12 +955,17 @@ function App() {
         </div>
       </div>
       {/* component end */}
-      {/* component start */}
+
+      {/* PhoneInputAndOTP has its own component page */}
       <PhoneInputAndOTP />
-      {/* component end */}
-      {/* component start */}
+      {/* PhoneInputAndOTP end */}
+
+      {/* DetailsInput has its own component page */}
       <DetailsInput />
-      {/* component end */}
+      {/* DetailInput end */}
+      {/* SelectTaxi has its own component page */}
+      <SelectTaxi />
+      {/* SelectTaxi end */}
     </>
   );
 }
