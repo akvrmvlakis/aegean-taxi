@@ -15,7 +15,7 @@ import {
 } from "@vis.gl/react-google-maps";
 
 const SelectTaxi = () => {
-  const [selectedItem, setSelectedItem] = useState("");
+  const [selectedItem, setSelectedItem] = useState("item1");
 
   const [markerRef, marker] = useMarkerRef();
 
@@ -34,11 +34,11 @@ const SelectTaxi = () => {
   const getButtonText = () => {
     switch (selectedItem) {
       case "item1":
-        return "Book Economy";
+        return "Confirm Economy";
       case "item2":
-        return "Book Van";
+        return "Confirm Van";
       case "item3":
-        return "Book Mini Bus";
+        return "Confirm Mini Bus";
       default:
         return "Select an Item";
     }
@@ -84,9 +84,9 @@ const SelectTaxi = () => {
             onClick={() => handleSelect("item1")}
           >
             <img src={uberCar} alt="Taxi Icon" className="w-[60px] h-[60px]" />
-            <div className="-ml-5">
-              <p className="text-[#264388] font-semibold text-xl">Economy</p>
-              <div className="flex items-center justify-evenly">
+            <div className="flex flex-col items-center justify-start">
+              <p className="text-[#264388] font-bold text-xl">Economy</p>
+              <div className="flex items-center justify-start">
                 <img
                   src={personIcon}
                   alt="Person Icon"
@@ -106,9 +106,9 @@ const SelectTaxi = () => {
             onClick={() => handleSelect("item2")}
           >
             <img src={uberVan} alt="Taxi Icon" className="w-[60px] h-[60px]" />
-            <div className="-ml-5">
-              <p className="text-[#264388] font-semibold text-xl">Van</p>
-              <div className="flex items-center justify-center">
+            <div className="flex flex-col items-center justify-start">
+              <p className="text-[#264388] font-bold text-xl">Van</p>
+              <div className="flex items-center justify-start">
                 <img
                   src={personIcon}
                   alt="Person Icon"
@@ -128,9 +128,9 @@ const SelectTaxi = () => {
             onClick={() => handleSelect("item3")}
           >
             <img src={uberVan} alt="Taxi Icon" className="w-[60px] h-[60px]" />
-            <div className="-ml-5">
+            <div className="flex flex-col items-center justify-start">
               <p className="text-[#264388] font-semibold text-xl">Mini Bus</p>
-              <div className="flex items-center justify-evenly">
+              <div className="flex items-center justify-start">
                 <img
                   src={personIcon}
                   alt="Person Icon"
