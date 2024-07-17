@@ -8,5 +8,5 @@
 
 // add safe are env on all pages for safari 15 browsers
 .flex.flex-col.min-h-screen {
-  margin-bottom: env(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
 }
