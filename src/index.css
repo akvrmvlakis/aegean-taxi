@@ -5,3 +5,7 @@
 .text-xxs {
   font-size: 10px !important;
 }
+
+.flex.items-end.px-4.my-4.safe-area-safari {
+  margin: env(safe-area-inset-bottom);
+}
