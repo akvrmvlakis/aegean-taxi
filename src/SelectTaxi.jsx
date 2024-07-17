@@ -92,7 +92,7 @@ const SelectTaxi = () => {
               <img
                 src={uberCar}
                 alt="Taxi Icon"
-                className="w-[75px] h-[75px] mr-2"
+                className="w-[50px] h-[50px] mr-2"
               />
               <div className="flex flex-col items-start justify-start">
                 <div className="flex flex-row items-center justify-start">
@@ -130,7 +130,7 @@ const SelectTaxi = () => {
               <img
                 src={uberVan}
                 alt="Taxi Icon"
-                className="w-[75px] h-[75px] mr-2"
+                className="w-[50px] h-[50px] mr-2"
               />
               <div className="flex flex-col items-start justify-start">
                 <div className="flex flex-row items-center justify-start">
@@ -166,7 +166,7 @@ const SelectTaxi = () => {
               <img
                 src={uberVan}
                 alt="Taxi Icon"
-                className="w-[75px] h-[75px] mr-2"
+                className="w-[50px] h-[50px] mr-2"
               />
               <div className="flex flex-col items-start justify-start">
                 <div className="flex flex-row items-center justify-start">
@@ -201,13 +201,13 @@ const SelectTaxi = () => {
           alt="Wallet Icon"
           className="w-[25px] h-[25px] me-1"
         />
-        <p className="text-black text-lg font-semibold">
+        <p className="text-black text-base font-semibold">
           Card payment available with driver
         </p>
       </div>
 
       <div className="flex flex-grow items-end justify-center px-4 my-4">
-        <button className="w-full bg-[#264388] text-white font-semibold text-2xl py-4 rounded-md">
+        <button className="w-full bg-[#264388] text-white font-semibold text-xl py-4 rounded-md">
           {getButtonText()}
         </button>
       </div>
