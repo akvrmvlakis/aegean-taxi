@@ -47,7 +47,7 @@ const SelectTaxi = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <nav>
-        {/* wherever the page starts with a map the navbar doesnt have a bottom border */}
+        {/* wherever the page starts with a map the navbar shouldn't have a bottom border */}
         <div className="flex items-center justify-between py-5 px-4">
           <div className="flex items-center">
             <img src={menuBtn} alt="Menu Button" className="mr-4" />
@@ -110,7 +110,6 @@ const SelectTaxi = () => {
                   <p className="text-sm mx-1 font-semibold">
                     <span>15:25</span>
                   </p>
-                  {/* <div className="text-3xl leading-0">.</div> */}
                   <p className="text-sm mx-1 font-semibold">
                     <span>3 mins away</span>
                   </p>
@@ -185,7 +184,6 @@ const SelectTaxi = () => {
                   <p className="text-sm mx-1 font-semibold">
                     <span>15:25</span>
                   </p>
-                  {/* <div className="text-3xl leading-0">.</div> */}
                   <p className="text-sm mx-1 font-semibold">
                     <span>3 mins away</span>
                   </p>
