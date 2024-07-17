@@ -6,6 +6,7 @@
   font-size: 10px !important;
 }
 
-.flex.items-end.px-4.my-4.safe-area-safari {
-  margin: env(safe-area-inset-bottom);
+// add safe are env on all pages for safari 15 browsers
+.flex.flex-col.min-h-screen {
+  margin-bottom: env(safe-area-inset-bottom);
 }

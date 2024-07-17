@@ -139,7 +139,7 @@ const DetailsInput = () => {
         </form>
       </div>
 
-      <div className="flex items-end px-4 my-4 safe-area-safari">
+      <div className="flex items-end px-4 my-4">
         <button
           type="submit"
           className="w-full flex items-center justify-center relative bg-[#264388] text-white font-semibold text-2xl py-4 rounded-md"
