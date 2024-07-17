@@ -129,7 +129,7 @@ const SelectTaxi = () => {
           >
             <img src={uberVan} alt="Taxi Icon" className="w-[60px] h-[60px]" />
             <div className="flex flex-col items-center justify-start">
-              <p className="text-[#264388] font-semibold text-xl">Mini Bus</p>
+              <p className="text-[#264388] font-bold text-xl">Mini Bus</p>
               <div className="flex items-center justify-start">
                 <img
                   src={personIcon}
