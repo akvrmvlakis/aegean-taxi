@@ -30,6 +30,9 @@ import nearbyDriversLg from "/nearbyDriversLg.png";
 import walletIcon from "/walletIcon.svg";
 import telephoneIcon from "/telephoneIcon.svg";
 import whatsappVector from "/whatsappVector.svg";
+import appStore from "/appStore.svg";
+import googlePlay from "/googlePlay.svg";
+import mapPin from "/mapPin.svg";
 
 function App() {
   // Google maps conf
@@ -663,7 +666,7 @@ function App() {
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
         </div>
-        <div className="flex items-center justify-center mt-8 mx-4">
+        <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-[#016974]">
             <img
               src={nearbyDriversLg}
@@ -679,6 +682,12 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+          <img src={uberIcon} alt="Wallet Icon" className="w-[75px] h-[75px]" />
+          <p className="text-black text-lg font-semibold">
+            Pre-book your return ride to avoid wait
+          </p>
         </div>
         <div className="flex flex-grow items-end mt-6 mb-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
@@ -713,7 +722,7 @@ function App() {
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
         </div>
-        <div className="flex items-center justify-center mt-8 mx-4">
+        <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-[#050950]">
             <img
               src={nearbyDriversLg}
@@ -732,11 +741,11 @@ function App() {
           </div>
         </div>
 
-        <div className="flex flex-grow mt-4 items-center justify-center">
+        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
           <img
             src={walletIcon}
             alt="Wallet Icon"
-            className="w-[25px] h-[25px] me-1"
+            className="w-[30px] h-[30px] my-2"
           />
           <p className="text-black text-lg font-semibold">
             Card payment available with driver
@@ -776,7 +785,7 @@ function App() {
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
         </div>
-        <div className="flex items-center justify-center mt-8 mx-4">
+        <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-[#0711C4]">
             <img
               src={nearbyDriversLg}
@@ -793,14 +802,10 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-grow mt-4 items-center justify-center">
-          <img
-            src={walletIcon}
-            alt="Wallet Icon"
-            className="w-[25px] h-[25px] me-1"
-          />
+        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+          <img src={mapPin} alt="Map Pin Icon" className="w-[50px] h-[50px]" />
           <p className="text-black text-lg font-semibold">
-            Card payment available with driver
+            Pre-book for all your destinations
           </p>
         </div>
         <div className="flex items-end justify-center my-4 px-2">
@@ -836,7 +841,7 @@ function App() {
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
           <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
         </div>
-        <div className="flex items-center justify-center mt-8 mx-4">
+        <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-black">
             <img
               src={nearbyDriversLg}
@@ -853,14 +858,21 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-grow mt-4 items-center justify-center">
-          <img
-            src={walletIcon}
-            alt="Wallet Icon"
-            className="w-[25px] h-[25px] me-1"
-          />
+        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+          <div className="flex flex-row items-center justify-center">
+            <img
+              src={appStore}
+              alt="App Store Icon"
+              className="w-[140px] h-[50px] mx-1"
+            />
+            <img
+              src={googlePlay}
+              alt="Wallet Icon"
+              className="w-[140px] h-[50px] mx-1"
+            />
+          </div>
           <p className="text-black text-lg font-semibold">
-            Card payment available with driver
+            Download the Aegean Taxi App
           </p>
         </div>
         <div className="flex items-end justify-center my-4 px-2">

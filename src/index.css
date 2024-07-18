@@ -6,7 +6,8 @@
   font-size: 10px !important;
 }
 
-// add safe are env on all pages for safari 15 browsers
+// CAUTION do not omit this adds extra bottom padding on all pages for safari browsers in iOS 15
+// For more info: https://developer.apple.com/videos/play/wwdc2021/10029/
 .flex.flex-col.min-h-screen {
   padding-bottom: env(safe-area-inset-bottom);
 }
