@@ -67,14 +67,14 @@ const PhoneInputAndOTP = () => {
             value={countryCode}
             onChange={handleCountryCodeChange}
             placeholder="+30"
-            className="w-1/4 px-2 py-4 border border-gray-200 bg-gray-200 text-black rounded font-semibold text-xl focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-1/3 px-2 py-4 border border-gray-200 bg-gray-200 text-black rounded font-semibold text-xl focus:outline-none focus:ring-2 focus:ring-black"
           />
           <input
             type="tel"
             value={phoneNumber}
             onChange={handlePhoneNumberChange}
             placeholder="690 876 5060"
-            className="px-2 py-4 border border-gray-200 bg-gray-200 text-black rounded font-semibold text-xl focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-2/3 px-2 py-4 border border-gray-200 bg-gray-200 text-black rounded font-semibold text-xl focus:outline-none focus:ring-2 focus:ring-black"
           />
         </div>
 
