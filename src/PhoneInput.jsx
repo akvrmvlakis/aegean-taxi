@@ -4,6 +4,7 @@ import phoneIcon from "/phoneIcon.svg";
 import logo from "/logo.svg";
 import backArrow from "/backArrow.svg";
 import whatsApp from "/whatsApp.svg";
+import whatsappiOS from "/whatsappiOS.svg";
 
 const PhoneInputAndOTP = () => {
   const [countryCode, setCountryCode] = useState("");
@@ -50,7 +51,7 @@ const PhoneInputAndOTP = () => {
         <img
           src={backArrow}
           alt="Back Arrow"
-          className="bg-blue-900 p-2 w-[50px] h-[50px] rounded-full ms-4"
+          className="bg-blue-900 p-4 w-[50px] h-[50px] rounded-full ms-4"
         />
       </div>
 
@@ -79,8 +80,8 @@ const PhoneInputAndOTP = () => {
         </div>
 
         <div className="flex items-center justify-center mx-4">
-          <h1 className="font-bold text-2xl text-center font-semibold text-[#244284]">
-            Make sure you entered the correct country code!
+          <h1 className="font-bold text-sm text-red-600 text-center font-semibold text-[#244284]">
+            *Make sure you entered the correct country code.
           </h1>
         </div>
 
@@ -105,21 +106,15 @@ const PhoneInputAndOTP = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-end">
-        <div className="flex items-center justify-between my-4 mx-2">
-          <div className="flex justify-start">
-            <img
-              src={whatsApp}
-              alt="Whatsapp Logo"
-              className="p-2 w-[80px] h-[80px] me-14 -mb-1"
-            />
-          </div>
-          <div className="flex justify-end">
-            <p className="font-semibold text-xl">
-              Message us on whatsapp 24/7 customer support
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-col justify-center items-center my-4">
+        <img
+          src={whatsappiOS}
+          alt="Whatsapp Logo"
+          className="w-[50px] h-[50px] my-2"
+        />
+        <p className="font-semibold text-xl text-center">
+          Message us on whatsapp 24/7 customer support
+        </p>
       </div>
     </div>
   );

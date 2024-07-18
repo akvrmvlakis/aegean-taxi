@@ -48,7 +48,7 @@ const DetailsInput = () => {
         <img
           src={backArrow}
           alt="Back Arrow"
-          className="bg-blue-900 p-2 w-[50px] h-[50px] rounded-full ms-4"
+          className="bg-blue-900 p-4 w-[50px] h-[50px] rounded-full ms-4"
         />
       </div>
 

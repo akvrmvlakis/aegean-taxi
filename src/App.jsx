@@ -2,6 +2,7 @@ import "./App.css";
 import PhoneInputAndOTP from "./PhoneInput";
 import DetailsInput from "./DetailsInput";
 import SelectTaxi from "./SelectTaxi";
+import InputFields from "./InputFields";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 import logo from "/logo.svg";
 import menuBtn from "/menu-btn.svg";
@@ -427,11 +428,7 @@ function App() {
         </div>
         <div className="flex flex-col items-center justify-center flex-grow mx-4">
           <div className="flex items-center justify-center">
-            <img
-              src={uberIcon}
-              alt="Taxi Icon"
-              className="w-[100px] h-[70px]"
-            />
+            <img src={uberIcon} alt="Taxi Icon" className="w-[80px] h-[50px]" />
           </div>
           <div className="flex items-center justify-center mt-3">
             <p className="text-lg font-bold uppercase border-2 border-gray-300 px-2 py-1">
@@ -454,7 +451,7 @@ function App() {
               />
               <p className="text-xs text-black font-semibold">Phone</p>
             </div>
-            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
             <div className="flex flex-col items-center justify-center">
               <img
                 src={whatsappiOS}
@@ -606,11 +603,7 @@ function App() {
         </div>
         <div className="flex flex-col items-center justify-center flex-grow mx-4">
           <div className="flex items-center justify-center">
-            <img
-              src={uberIcon}
-              alt="Taxi Icon"
-              className="w-[100px] h-[70px]"
-            />
+            <img src={uberIcon} alt="Taxi Icon" className="w-[80px] h-[50px]" />
           </div>
           <div className="flex items-center justify-center mt-3">
             <p className="text-lg font-bold uppercase border-2 border-gray-300 px-2 py-1">
@@ -633,7 +626,7 @@ function App() {
               />
               <p className="text-xs text-black font-semibold">Phone</p>
             </div>
-            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
             <div className="flex flex-col items-center justify-center">
               <img
                 src={whatsappiOS}
@@ -687,11 +680,11 @@ function App() {
               alt="Nearby Drivers Image"
               className="w-full rounded-t-lg"
             />
-            <div className="text-center h-[150px] flex flex-col justify-center items-center">
-              <p className="text-white font-semibold text-lg pb-2">
+            <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
+              <p className="text-white font-semibold text-lg">
                 Cars available to book online 24/7
               </p>
-              <p className="text-white font-semibold text-lg pt-2">
+              <p className="text-white font-semibold text-lg">
                 Instant booking & confirmation
               </p>
             </div>
@@ -744,11 +737,11 @@ function App() {
               className="w-full rounded-t-lg"
             />
 
-            <div className="text-center h-[150px] flex flex-col justify-center items-center">
-              <p className="text-white font-semibold text-lg pb-2">
+            <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
+              <p className="text-white font-semibold text-lg">
                 Cars available to book online 24/7
               </p>
-              <p className="text-white font-semibold text-lg pt-2">
+              <p className="text-white font-semibold text-lg">
                 Instant booking & confirmation
               </p>
             </div>
@@ -806,11 +799,11 @@ function App() {
               alt="Nearby Drivers Image"
               className="w-full rounded-t-lg"
             />
-            <div className="text-center h-[150px] flex flex-col justify-center items-center">
-              <p className="text-white font-semibold text-lg pb-2">
+            <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
+              <p className="text-white font-semibold text-lg">
                 Available in all main islands & Athens
               </p>
-              <p className="text-white font-semibold text-lg pt-2">
+              <p className="text-white font-semibold text-lg">
                 Port & Airport Transfers
               </p>
             </div>
@@ -862,11 +855,11 @@ function App() {
               alt="Nearby Drivers Image"
               className="w-full rounded-t-lg"
             />
-            <div className="text-center h-[150px] flex flex-col justify-center items-center">
-              <p className="text-white font-semibold text-lg pb-2">
+            <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
+              <p className="text-white font-semibold text-lg">
                 24/7 customer support
               </p>
-              <p className="text-white font-semibold text-lg pt-2">
+              <p className="text-white font-semibold text-lg">
                 Port & Airport Transfers
               </p>
             </div>
@@ -960,14 +953,14 @@ function App() {
             </h1>
           </div>
           <div className="flex items-center justify-center">
-            <p className="font-semibold text-[18px] text-center">
-              Once a driver accepts your ride, this section will be updated with
-              driver details
+            <p className="font-semibold text-xl text-center">
+              Once a driver accepts your ride, <br></br> this section will be
+              updated with driver details
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <p className="font-semibold text-[22px] text-center">
-              Please check again using the link provided on the SMS
+            <p className="font-semibold text-xl text-center">
+              Please check again using the link<br></br> provided on the SMS
             </p>
           </div>
         </div>
@@ -992,6 +985,9 @@ function App() {
       {/* SelectTaxi has its own component page */}
       <SelectTaxi />
       {/* SelectTaxi end */}
+      {/* Inputfields has its own component page */}
+      <InputFields />
+      {/* Inputfields end */}
     </>
   );
 }

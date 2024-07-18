@@ -15,17 +15,17 @@ import {
 } from "@vis.gl/react-google-maps";
 
 const SelectTaxi = () => {
-  const [selectedItem, setSelectedItem] = useState("item1");
-
+  // Google maps conf
   const [markerRef, marker] = useMarkerRef();
-
   useEffect(() => {
     if (!marker) {
       return;
     }
-
     // do something with marker instance here
   }, [marker]);
+  // Google maps conf end
+
+  const [selectedItem, setSelectedItem] = useState("item1");
 
   const handleSelect = (item) => {
     setSelectedItem(item);
