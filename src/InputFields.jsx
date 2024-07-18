@@ -51,7 +51,7 @@ const InputFields = () => {
           </div>
         </div>
       </nav>
-      <div className="w-full h-[400px] relative">
+      <div className="w-full h-[350px] relative">
         <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
           <Map
             zoom={12}
@@ -90,7 +90,7 @@ const InputFields = () => {
               value={field}
               onChange={(event) => handleChange(index, event)}
               className="pl-8 pr-8 py-4 border bg-[#EEEEEE] text-blue-900 font-bold text-lg w-full rounded"
-              placeholder={`Destination`}
+              placeholder={index === 0 ? "Depature" : "Arrival"}
             />
             {/* Clear button */}
             <button

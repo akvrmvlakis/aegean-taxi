@@ -953,9 +953,9 @@ function App() {
             </h1>
           </div>
           <div className="flex items-center justify-center">
-            <p className="font-semibold text-xl text-center">
-              Once a driver accepts your ride, <br></br> this section will be
-              updated with driver details
+            <p className="font-semibold text-lg text-center">
+              Once a driver accepts your ride, <br></br>this section will be
+              updated <br></br>with driver details.
             </p>
           </div>
           <div className="flex items-center justify-center">
