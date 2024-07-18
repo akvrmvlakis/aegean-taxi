@@ -33,6 +33,8 @@ import whatsappVector from "/whatsappVector.svg";
 import appStore from "/appStore.svg";
 import googlePlay from "/googlePlay.svg";
 import mapPin from "/mapPin.svg";
+import whatsappiOS from "/whatsappiOS.svg";
+import phoneiOS from "/phoneiOS.svg";
 
 function App() {
   // Google maps conf
@@ -424,7 +426,7 @@ function App() {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center flex-grow mx-4">
-          <div className="flex items-center justify-center mt-2">
+          <div className="flex items-center justify-center">
             <img
               src={uberIcon}
               alt="Taxi Icon"
@@ -440,21 +442,27 @@ function App() {
             <p className="text-lg font-semibold">Black Mercedes V Class</p>
           </div>
           <div className="flex items-center justify-center mt-3">
-            <p className="text-2xl font-bold text-blue-800">Dimitris</p>
+            <p className="text-xl font-bold text-blue-800">Dimitris</p>
           </div>
 
-          <div className="flex items-center justify-between w-full mt-3">
-            <img
-              src={telephoneIcon}
-              alt=" Device Icon"
-              className="w-[50px] h-[50px] me-3"
-            />
-            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
-            <img
-              src={whatsappVector}
-              alt="Whatsapp Icon"
-              className="w-[50px] h-[50px] ms-3"
-            />
+          <div className="flex items-start justify-between w-full mt-3">
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={phoneiOS}
+                alt=" Device Icon"
+                className="w-[40px] h-[40px]"
+              />
+              <p className="text-xs text-black font-semibold">Phone</p>
+            </div>
+            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={whatsappiOS}
+                alt="Whatsapp Icon"
+                className="w-[40px] h-[40px]"
+              />
+              <p className="text-xs text-black font-semibold">WhatsApp</p>
+            </div>
           </div>
         </div>
         <div className="flex items-end justify-between mt-16 mb-4 px-2">
@@ -613,21 +621,27 @@ function App() {
             <p className="text-lg font-semibold">Black Mercedes V Class</p>
           </div>
           <div className="flex items-center justify-center mt-3">
-            <p className="text-2xl font-bold text-blue-800">Dimitris</p>
+            <p className="text-xl font-bold text-blue-800">Dimitris</p>
           </div>
 
-          <div className="flex items-center justify-between w-full mt-3">
-            <img
-              src={telephoneIcon}
-              alt=" Device Icon"
-              className="w-[50px] h-[50px] me-3"
-            />
-            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
-            <img
-              src={whatsappVector}
-              alt="Whatsapp Icon"
-              className="w-[50px] h-[50px] ms-3"
-            />
+          <div className="flex items-start justify-between w-full mt-3">
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={phoneiOS}
+                alt=" Device Icon"
+                className="w-[40px] h-[40px]"
+              />
+              <p className="text-xs text-black font-semibold">Phone</p>
+            </div>
+            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src={whatsappiOS}
+                alt="Whatsapp Icon"
+                className="w-[40px] h-[40px]"
+              />
+              <p className="text-xs text-black font-semibold">WhatsApp</p>
+            </div>
           </div>
         </div>
         <div className="flex items-end my-4 px-2">
