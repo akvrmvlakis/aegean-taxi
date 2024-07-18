@@ -684,7 +684,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-col flex-grow mt-4 items-center justify-center">
-          <img src={uberIcon} alt="Wallet Icon" className="w-[75px] h-[75px]" />
+          <img src={uberIcon} alt="Wallet Icon" className="w-[60px] h-[60px]" />
           <p className="text-black text-lg font-semibold">
             Pre-book your return ride to avoid wait
           </p>
