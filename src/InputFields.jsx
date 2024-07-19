@@ -73,7 +73,7 @@ const InputFields = () => {
         </div>
       </div>
       <div className="flex flex-col space-y-4 relative m-4">
-        <hr className="border-2 border-black absolute left-[-19px] bottom-[66px] w-[70px] z-10 rotate-90"></hr>
+        <hr className="border-1 border-black absolute left-[-19px] bottom-[66px] w-[70px] z-10 rotate-90"></hr>
         {fields.map((field, index) => (
           <div key={index} className="relative flex items-center">
             {/* Image placeholder */}
@@ -95,7 +95,7 @@ const InputFields = () => {
             {/* Clear button */}
             <button
               onClick={() => handleClear(index)}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 mr-2 bg-blue-900 text-white rounded-full w-[25px] h-[25px]"
+              className="absolute right-0 top-1/2 me-2 transform -translate-y-1/2 mr-2 bg-blue-900 text-white rounded-full w-[25px] h-[25px]"
             >
               X
             </button>
@@ -103,10 +103,10 @@ const InputFields = () => {
         ))}
       </div>
       <div className="flex flex-grow items-end justify-center mt-16 mb-4 px-2">
-        <button className="bg-[#264388] flex items-center justify-center w-4/5 rounded-lg py-3 font-bold text-lg text-white w-1/2 mx-2">
+        <button className="bg-[#264388] flex items-center justify-center w-4/5 rounded-lg py-3 font-bold text-lg text-white mx-2">
           Book for now
         </button>
-        <button className="bg-white flex items-center justify-center w-1/5 border-2 border-[#264388] rounded-lg py-2 font-semibold text-lg text-white w-1/2 mx-2">
+        <button className="bg-white flex items-center justify-center w-1/5 border-2 border-[#264388] rounded-lg py-2 font-semibold text-lg text-white mx-2">
           <img
             src={calendarInput}
             alt="Calendar Input Icon"

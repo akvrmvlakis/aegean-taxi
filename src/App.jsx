@@ -36,6 +36,9 @@ import googlePlay from "/googlePlay.svg";
 import mapPin from "/mapPin.svg";
 import whatsappiOS from "/whatsappiOS.svg";
 import phoneiOS from "/phoneiOS.svg";
+import driversView from "/driversView.png";
+import islandView from "/islandView.png";
+import mobileView from "/mobileView.png";
 
 function App() {
   // Google maps conf
@@ -690,7 +693,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+        <div className="flex flex-col flex-grow items-center justify-center">
           <img src={uberIcon} alt="Wallet Icon" className="w-[60px] h-[60px]" />
           <p className="text-black text-lg font-semibold">
             Pre-book your return ride to avoid wait
@@ -732,23 +735,23 @@ function App() {
         <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-[#050950]">
             <img
-              src={nearbyDriversLg}
+              src={driversView}
               alt="Nearby Drivers Image"
               className="w-full rounded-t-lg"
             />
 
             <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
               <p className="text-white font-semibold text-lg">
-                Cars available to book online 24/7
+                3 categories of cars for all budgets
               </p>
               <p className="text-white font-semibold text-lg">
-                Instant booking & confirmation
+                Pay with cash or credit card
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+        <div className="flex flex-col flex-grow items-center justify-center">
           <img
             src={walletIcon}
             alt="Wallet Icon"
@@ -795,8 +798,8 @@ function App() {
         <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-[#0711C4]">
             <img
-              src={nearbyDriversLg}
-              alt="Nearby Drivers Image"
+              src={islandView}
+              alt="Island View Image"
               className="w-full rounded-t-lg"
             />
             <div className="text-center h-[100px] flex flex-col justify-around my-2 items-center">
@@ -804,12 +807,12 @@ function App() {
                 Available in all main islands & Athens
               </p>
               <p className="text-white font-semibold text-lg">
-                Port & Airport Transfers
+                Port & Airport Transfers + Tours
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+        <div className="flex flex-col flex-grow items-center justify-center">
           <img src={mapPin} alt="Map Pin Icon" className="w-[50px] h-[50px]" />
           <p className="text-black text-lg font-semibold">
             Pre-book for all your destinations
@@ -851,7 +854,7 @@ function App() {
         <div className="flex items-center justify-center mx-4">
           <div className="block rounded-t-lg rounded-b-lg bg-black">
             <img
-              src={nearbyDriversLg}
+              src={mobileView}
               alt="Nearby Drivers Image"
               className="w-full rounded-t-lg"
             />
@@ -860,12 +863,12 @@ function App() {
                 24/7 customer support
               </p>
               <p className="text-white font-semibold text-lg">
-                Port & Airport Transfers
+                Book online/whatsapp/taxi app
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col flex-grow mt-4 items-center justify-center">
+        <div className="flex flex-col flex-grow items-center justify-center">
           <div className="flex flex-row items-center justify-center">
             <img
               src={appStore}
