@@ -99,23 +99,24 @@ const PhoneInputAndOTP = () => {
           ))}
         </div>
 
-        <div className="flex items-center justify-start mx-4">
+        {/* <div className="flex items-center justify-start mx-4">
           <p className="font-normal text-base">
             I havent received a code <span>0:08</span>
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col justify-center items-center my-4 px-4">
-        <img
-          src={whatsappiOS}
-          alt="Whatsapp Logo"
-          className="w-[50px] h-[50px] my-2"
-        />
-        <p className="font-semibold text-base text-center">
-          If you have not received your SMS verification, please click on the
-          whatsapp button to message us directly
-        </p>
+        <div className="flex flex-col justify-center items-center px-4">
+          <img
+            src={whatsappiOS}
+            alt="Whatsapp Logo"
+            className="w-[50px] h-[50px] my-2"
+          />
+          <p className="font-semibold text-base text-center">
+            If you have not received your SMS verification, please click on the
+            whatsapp button to message us directly
+          </p>
+        </div>
       </div>
     </div>
   );
