@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import menuBtn from "/menu-btn.svg";
 import phoneIcon from "/phoneIcon.svg";
 import logo from "/logo.svg";
+import airportIcon from "/airportIcon.svg";
+import portIcon from "/portIcon.svg";
 
 const PickupLocation = () => {
   const [inputValue, setInputValue] = useState("");
@@ -49,7 +51,7 @@ const PickupLocation = () => {
             type="text"
             value={inputValue}
             onChange={handleChange}
-            className="pl-8 pr-8 py-3 border-2 border-[#244284] rounded font-bold focus:outline-none focus:border-blue-500 w-full"
+            className="pl-8 pr-8 py-3 border-2 border-[#244284] rounded font-semibold focus:outline-none focus:border-blue-500 w-full"
             placeholder="Enter pick up location"
           />
           {/* Clear button */}
@@ -60,16 +62,24 @@ const PickupLocation = () => {
             X
           </button>
         </div>
-        {/* Results div */}
-        {results.length > 0 && (
-          <div className="font-bold">
-            {results.map((result, index) => (
-              <div key={index} className="py-1">
-                {result}
-              </div>
-            ))}
+        <div className="flex flex-col items-start justify-center">
+          <div className="flex flex-row justify-start items-center my-2">
+            <img
+              src={airportIcon}
+              alt="Airport Icon"
+              className="w-[50px] h-[50px] me-5 bg-gray-200 rounded-full p-2"
+            />
+            <p className="font-semibold text-lg">Mykonos Airport (JMK)</p>
           </div>
-        )}
+          <div className="flex flex-row justify-start items-center my-2">
+            <img
+              src={portIcon}
+              alt="Port Icon"
+              className="w-[50px] h-[50px] me-5 bg-gray-200 rounded-full p-2"
+            />
+            <p className="font-semibold text-lg">Mykonos New Port (Tourlos)</p>
+          </div>
+        </div>
       </div>
       <div className="flex justify-center items-end flex-grow px-4 my-4">
         <h1 className="font-bold text-2xl text-[#244284]">
