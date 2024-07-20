@@ -89,13 +89,13 @@ const InputFields = () => {
               type="text"
               value={field}
               onChange={(event) => handleChange(index, event)}
-              className="pl-8 pr-8 py-4 border bg-[#EEEEEE] text-blue-900 font-bold text-lg w-full rounded"
-              placeholder={index === 0 ? "Depature" : "Arrival"}
+              className="pl-8 pr-8 py-3 border bg-[#EEEEEE] text-blue-900 font-bold text-lg w-full rounded"
+              placeholder={index === 0 ? "Departure" : "Arrival"}
             />
             {/* Clear button */}
             <button
               onClick={() => handleClear(index)}
-              className="absolute right-0 top-1/2 me-2 transform -translate-y-1/2 mr-2 bg-blue-900 text-white rounded-full w-[25px] h-[25px]"
+              className="absolute right-0 top-1/2 me-2 transform -translate-y-1/2 mr-2 bg-[#244284] text-white rounded-full w-[25px] h-[25px]"
             >
               X
             </button>

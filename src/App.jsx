@@ -1,4 +1,5 @@
 import "./App.css";
+import PickupLocation from "./PickupLocation";
 import PhoneInputAndOTP from "./PhoneInput";
 import DetailsInput from "./DetailsInput";
 import SelectTaxi from "./SelectTaxi";
@@ -986,15 +987,22 @@ function App() {
       {/* DetailsInput has its own component page */}
       <DetailsInput />
       {/* DetailInput end */}
+
       {/* SelectTaxi has its own component page */}
       <SelectTaxi />
       {/* SelectTaxi end */}
+
       {/* Inputfields has its own component page */}
       <InputFields />
       {/* Inputfields end */}
+
       {/* BookingFlow has its own component page */}
       <BookingFlow />
       {/* BookingFlow end */}
+
+      {/* PickupLocation has its own component page */}
+      <PickupLocation />
+      {/* PickupLocation end */}
     </>
   );
 }
