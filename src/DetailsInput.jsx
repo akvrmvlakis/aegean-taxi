@@ -108,11 +108,22 @@ const DetailsInput = () => {
             *Make sure you entered the correct country code
           </p>
 
-          <div className="flex items-center justify-center my-10">
+          {/* <div className="flex items-center justify-center my-10">
             <img
               src={walletIcon}
               alt="Wallet Icon"
               className="w-[25px] h-[25px] me-1"
+            />
+            <p className="text-black text-lg font-semibold">
+              Card payment available with driver
+            </p>
+          </div> */}
+
+          <div className="flex flex-col flex-grow items-center justify-center my-10">
+            <img
+              src={walletIcon}
+              alt="Wallet Icon"
+              className="w-[30px] h-[30px] my-2"
             />
             <p className="text-black text-lg font-semibold">
               Card payment available with driver
@@ -139,7 +150,7 @@ const DetailsInput = () => {
         </form>
       </div>
 
-      <div className="flex items-end px-4 my-4">
+      <div className="flex justify-center items-end px-4 my-4">
         <button
           type="submit"
           className="w-full flex items-center justify-center relative bg-[#264388] text-white font-semibold text-xl py-4 rounded-md"

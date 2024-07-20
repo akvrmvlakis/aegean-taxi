@@ -4,6 +4,7 @@ import DetailsInput from "./DetailsInput";
 import SelectTaxi from "./SelectTaxi";
 import InputFields from "./InputFields";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
+import BookingFlow from "./BookingFlow";
 import logo from "/logo.svg";
 import menuBtn from "/menu-btn.svg";
 import phoneIcon from "/phoneIcon.svg";
@@ -454,7 +455,7 @@ function App() {
               />
               <p className="text-xs text-black font-semibold">Phone</p>
             </div>
-            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
             <div className="flex flex-col items-center justify-center">
               <img
                 src={whatsappiOS}
@@ -629,7 +630,7 @@ function App() {
               />
               <p className="text-xs text-black font-semibold">Phone</p>
             </div>
-            <p className="text-2xl font-bold text-blue-800">+30 690 987 3040</p>
+            <p className="text-xl font-bold text-blue-800">+30 690 987 3040</p>
             <div className="flex flex-col items-center justify-center">
               <img
                 src={whatsappiOS}
@@ -652,7 +653,7 @@ function App() {
       {/* component end */}
 
       {/* component start */}
-      <div className="flex flex-col min-h-screen">
+      {/* <div className="flex flex-col min-h-screen">
         <nav>
           <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
             <div className="flex items-center">
@@ -699,16 +700,16 @@ function App() {
             Pre-book your return ride to avoid wait
           </p>
         </div>
-        <div className="flex flex-grow items-end mt-6 mb-4 px-2">
+        <div className="flex items-end my-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-full mx-2">
             Cancel Ride
           </button>
         </div>
-      </div>
+      </div> */}
       {/* component end */}
 
       {/* component start */}
-      <div className="flex flex-col min-h-screen">
+      {/* <div className="flex flex-col min-h-screen">
         <nav>
           <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
             <div className="flex items-center">
@@ -767,11 +768,11 @@ function App() {
             Cancel Ride
           </button>
         </div>
-      </div>
+      </div> */}
       {/* component end */}
 
       {/* component start */}
-      <div className="flex flex-col min-h-screen">
+      {/* <div className="flex flex-col min-h-screen">
         <nav>
           <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
             <div className="flex items-center">
@@ -823,11 +824,11 @@ function App() {
             Cancel Ride
           </button>
         </div>
-      </div>
+      </div> */}
       {/* component end */}
 
       {/* component start */}
-      <div className="flex flex-col min-h-screen">
+      {/* <div className="flex flex-col min-h-screen">
         <nav>
           <div className="flex items-center justify-between py-5 px-4 border-b-4 border-[#1218241a]">
             <div className="flex items-center">
@@ -890,7 +891,7 @@ function App() {
             Cancel Ride
           </button>
         </div>
-      </div>
+      </div> */}
       {/* component end */}
 
       {/* component start */}
@@ -967,7 +968,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex items-end my-4 px-2">
+        <div className="flex items-end justify-center my-4 px-2">
           <button className="bg-[#E8E8E8] rounded-lg py-3 font-bold text-lg text-red-500 w-1/2 mx-2">
             Cancel Ride
           </button>
@@ -991,6 +992,9 @@ function App() {
       {/* Inputfields has its own component page */}
       <InputFields />
       {/* Inputfields end */}
+      {/* BookingFlow has its own component page */}
+      <BookingFlow />
+      {/* BookingFlow end */}
     </>
   );
 }

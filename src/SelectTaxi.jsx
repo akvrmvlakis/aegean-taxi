@@ -195,7 +195,7 @@ const SelectTaxi = () => {
         </div>
       </div>
 
-      <div className="flex flex-grow mt-4 items-center justify-center">
+      {/* <div className="flex flex-grow mt-4 items-center justify-center">
         <img
           src={walletIcon}
           alt="Wallet Icon"
@@ -204,9 +204,20 @@ const SelectTaxi = () => {
         <p className="text-black text-base font-semibold">
           Card payment available with driver
         </p>
+      </div> */}
+
+      <div className="flex flex-col flex-grow items-center justify-center">
+        <img
+          src={walletIcon}
+          alt="Wallet Icon"
+          className="w-[30px] h-[30px] my-2"
+        />
+        <p className="text-black text-lg font-semibold">
+          Card payment available with driver
+        </p>
       </div>
 
-      <div className="flex flex-grow items-end justify-center px-4 my-4">
+      <div className="flex items-end justify-center px-4 my-4">
         <button className="w-full bg-[#264388] text-white font-semibold text-xl py-4 rounded-md">
           {getButtonText()}
         </button>

@@ -9,3 +9,30 @@
 .flex.flex-col.min-h-screen {
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+.swiper-container {
+  overflow: hidden;
+  height: calc(100vh - 76px) !important;
+}
+
+/* .swiper-wrapper {
+  min-height: 100vh !important;
+}
+
+.swiper-slide {
+  min-height: 100vh !important;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #316fe0 !important;
+  border-radius: 2px;
+  width: 80px;
+  height: 4px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #316fe0 !important;
+  border-radius: 2px;
+  width: 80px;
+  height: 4px;
+}

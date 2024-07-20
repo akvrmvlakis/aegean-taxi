@@ -57,7 +57,7 @@ const PhoneInputAndOTP = () => {
 
       <div className="flex flex-col flex-grow items-center justify-center">
         <div className="flex items-center justify-center">
-          <h1 className="font-bold text-xl text-center font-semibold text-[#244284]">
+          <h1 className="text-xl text-center font-semibold text-[#244284]">
             Enter the 5-digit code sent to you at
           </h1>
         </div>
@@ -80,7 +80,7 @@ const PhoneInputAndOTP = () => {
         </div>
 
         <div className="flex items-center justify-center mx-4">
-          <h1 className="font-bold text-sm text-red-600 text-center font-semibold text-[#244284]">
+          <h1 className="font-bold text-sm text-red-600 text-center">
             *Make sure you entered the correct country code.
           </h1>
         </div>
@@ -106,7 +106,7 @@ const PhoneInputAndOTP = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center my-4">
+      <div className="flex flex-col justify-center items-center my-4 px-4">
         <img
           src={whatsappiOS}
           alt="Whatsapp Logo"
