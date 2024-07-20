@@ -112,8 +112,9 @@ const PhoneInputAndOTP = () => {
           alt="Whatsapp Logo"
           className="w-[50px] h-[50px] my-2"
         />
-        <p className="font-semibold text-xl text-center">
-          Message us on whatsapp 24/7 customer support
+        <p className="font-semibold text-base text-center">
+          If you have not received your SMS verification, please click on the
+          whatsapp button to message us directly
         </p>
       </div>
     </div>
