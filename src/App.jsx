@@ -1,4 +1,3 @@
-import DestinationLocation from "./DestinationLocation";
 import PickupLocation from "./PickupLocation";
 import PhoneInputAndOTP from "./PhoneInput";
 import DetailsInput from "./DetailsInput";
@@ -21,26 +20,13 @@ import kea from "/kea.svg";
 import crete from "/crete.svg";
 import athens from "/athens.svg";
 import car from "/car.svg";
-import map from "/map.png";
 import uberIcon from "/uberIcon.svg";
-import phoneDevice from "/phoneDevice.svg";
 import arrow from "/arrow.svg";
 import calendarIcon from "/calendarIcon.svg";
 import personIcon from "/personIcon.svg";
 import greenTick from "/greenTick.svg";
-import nearbyDrivers from "/nearbyDrivers.png";
-import nearbyDriversLg from "/nearbyDriversLg.png";
-import walletIcon from "/walletIcon.svg";
-import telephoneIcon from "/telephoneIcon.svg";
-import whatsappVector from "/whatsappVector.svg";
-import appStore from "/appStore.svg";
-import googlePlay from "/googlePlay.svg";
-import mapPin from "/mapPin.svg";
 import whatsappiOS from "/whatsappiOS.svg";
 import phoneiOS from "/phoneiOS.svg";
-import driversView from "/driversView.png";
-import islandView from "/islandView.png";
-import mobileView from "/mobileView.png";
 
 function App() {
   // Google maps conf

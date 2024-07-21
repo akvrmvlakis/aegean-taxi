@@ -40,10 +40,7 @@ const BookingFlow = () => {
             delay: 5000,
             disableOnInteraction: false,
           }}
-          autoHeight={true}
-          //   pagination={{
-          //     clickable: false,
-          //   }}
+          pagination={true}
           navigation={false}
           allowTouchMove={false}
           modules={[Autoplay, Pagination, Navigation]}
@@ -56,12 +53,8 @@ const BookingFlow = () => {
                   Looking for nearby drivers
                 </h1>
               </div>
-              <div className="flex items center justify-center mx-2">
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-              </div>
+              {/* div below with the class "my-8" is the placeholder for swiper navigation in order for it to have correct top && bottom margin */}
+              <div className="my-8"></div>
               <div className="flex items-center justify-center mx-4">
                 <div className="block rounded-t-lg rounded-b-lg bg-[#016974]">
                   <img
@@ -103,12 +96,8 @@ const BookingFlow = () => {
                   Connecting you to a driver
                 </h1>
               </div>
-              <div className="flex items center justify-center mx-2">
-                <hr className="my-8 mx-2  w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-              </div>
+              {/* div below with the class "my-8" is the placeholder for swiper navigation in order for it to have correct top && bottom margin */}
+              <div className="my-8"></div>
               <div className="flex items-center justify-center mx-4">
                 <div className="block rounded-t-lg rounded-b-lg bg-[#050950]">
                   <img
@@ -153,12 +142,8 @@ const BookingFlow = () => {
                   Getting driver details
                 </h1>
               </div>
-              <div className="flex items center justify-center mx-2">
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#EDEDED]" />
-              </div>
+              {/* div below with the class "my-8" is the placeholder for swiper navigation in order for it to have correct top && bottom margin */}
+              <div className="my-8"></div>
               <div className="flex items-center justify-center mx-4">
                 <div className="block rounded-t-lg rounded-b-lg bg-[#0711C4]">
                   <img
@@ -200,12 +185,8 @@ const BookingFlow = () => {
                   Confirming your booking
                 </h1>
               </div>
-              <div className="flex items center justify-center mx-2">
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-                <hr className="my-8 mx-2 w-full border-b-4 border-[#316FE0]" />
-              </div>
+              {/* div below with the class "my-8" is the placeholder for swiper navigation in order for it to have correct top && bottom margin */}
+              <div className="my-8"></div>
               <div className="flex items-center justify-center mx-4">
                 <div className="block rounded-t-lg rounded-b-lg bg-black">
                   <img

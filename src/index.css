@@ -6,6 +6,7 @@
   font-size: 10px !important;
 }
 
+// For iOS 15 and above to fix the Safari issue with the browser bar at the bottom
 .flex.flex-col.min-h-screen {
   padding-bottom: env(safe-area-inset-bottom);
 }
@@ -15,24 +16,20 @@
   height: calc(100vh - 76px) !important;
 }
 
-/* .swiper-wrapper {
-  min-height: 100vh !important;
-}
-
-.swiper-slide {
-  min-height: 100vh !important;
-} */
-
 .swiper-pagination-bullet-active {
   background-color: #316fe0 !important;
-  border-radius: 2px;
+  border-radius: 0px;
   width: 80px;
-  height: 4px;
+  height: 5px;
 }
 
 .swiper-pagination-bullet {
   background-color: #316fe0 !important;
-  border-radius: 2px;
+  border-radius: 0px;
   width: 80px;
-  height: 4px;
+  height: 5px;
+}
+
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 80px !important;
 }
