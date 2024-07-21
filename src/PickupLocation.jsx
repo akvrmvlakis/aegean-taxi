@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import menuBtn from "/menu-btn.svg";
 import phoneIcon from "/phoneIcon.svg";
 import logo from "/logo.svg";
 import airportIcon from "/airportIcon.svg";
 import portIcon from "/portIcon.svg";
+import bottomArrow from "/bottomArrow.svg";
 
 const PickupLocation = () => {
-  const [inputValue, setInputValue] = useState("");
+  const [pickupValue, setPickupValue] = useState("");
+  const [destinationValue, setDestinationValue] = useState("");
   const [results, setResults] = useState([]);
 
-  const handleChange = (event) => {
-    setInputValue(event.target.value);
+  const handleChange = (event, setValue) => {
+    setValue(event.target.value);
     // Update results based on input value
     // This is just a placeholder for demonstration
     if (event.target.value) {
@@ -20,8 +22,8 @@ const PickupLocation = () => {
     }
   };
 
-  const handleClear = () => {
-    setInputValue("");
+  const handleClear = (setValue) => {
+    setValue("");
     setResults([]);
   };
 
@@ -41,27 +43,58 @@ const PickupLocation = () => {
       </nav>
 
       <div className="flex flex-col space-y-4 relative px-4 my-4">
+        <img
+          src={bottomArrow}
+          alt="Bottom Pointing Arrow"
+          className="z-10 h-[45px] w-[20px] absolute top-[37px] left-[22px]"
+        />
+        {/* Pickup Location Input */}
         <div className="relative flex items-center">
           {/* Square placeholder */}
           <div className="absolute left-0 flex items-center justify-center h-full w-6">
-            <div className="w-3 h-3 bg-[#244284] ms-2"></div>
+            <div className="w-3 h-3 bg-[#244284] ml-2 rounded-full"></div>
           </div>
           {/* Input field */}
           <input
             type="text"
-            value={inputValue}
-            onChange={handleChange}
-            className="pl-8 pr-8 py-3 border-2 border-[#244284] rounded font-semibold focus:outline-none focus:border-blue-500 w-full"
+            value={pickupValue}
+            onChange={(e) => handleChange(e, setPickupValue)}
+            className="pl-8 pr-8 py-3 border-2 rounded font-semibold focus:outline-none bg-gray-300 focus:border-blue-500 w-full"
             placeholder="Enter pick up location"
           />
           {/* Clear button */}
           <button
-            onClick={handleClear}
-            className="absolute right-0 top-1/2 me-2 transform -translate-y-1/2 mr-2 bg-[#244284] text-white rounded-full w-[25px] h-[25px]"
+            onClick={() => handleClear(setPickupValue)}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#244284] text-white rounded-full w-[25px] h-[25px] flex items-center justify-center mr-2"
           >
             X
           </button>
         </div>
+
+        {/* Destination Location Input */}
+        <div className="relative flex items-center">
+          {/* Square placeholder */}
+          <div className="absolute left-0 flex items-center justify-center h-full w-6">
+            <div className="w-3 h-3 bg-[#244284] ml-2"></div>
+          </div>
+          {/* Input field */}
+          <input
+            type="text"
+            value={destinationValue}
+            onChange={(e) => handleChange(e, setDestinationValue)}
+            className="pl-8 pr-8 py-3 border-2 border-[#244284] rounded font-semibold focus:outline-none focus:border-blue-500 w-full"
+            placeholder="Enter destination location"
+          />
+          {/* Clear button */}
+          <button
+            onClick={() => handleClear(setDestinationValue)}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#244284] text-white rounded-full w-[25px] h-[25px] flex items-center justify-center mr-2"
+          >
+            X
+          </button>
+        </div>
+
+        {/* Results section */}
         <div className="flex flex-col items-start justify-center">
           <div className="flex flex-row justify-start items-center my-2">
             <img
