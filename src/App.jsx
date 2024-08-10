@@ -438,7 +438,7 @@ function App() {
               <img
                 src={phoneiOS}
                 alt=" Device Icon"
-                className="w-[40px] h-[40px]"
+                className="w-[40px] h-[40px] rounded-full blob"
               />
               <p className="text-xs text-black font-semibold">Phone</p>
             </div>
@@ -447,7 +447,7 @@ function App() {
               <img
                 src={whatsappiOS}
                 alt="Whatsapp Icon"
-                className="w-[40px] h-[40px]"
+                className="w-[40px] h-[40px] bg-[#00D624] rounded-full blob green"
               />
               <p className="text-xs text-black font-semibold">WhatsApp</p>
             </div>
